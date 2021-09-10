@@ -17,7 +17,7 @@ const sendEmail = async (message) =>{
                 return reject(err)
             }
 
-            console.log(info.response);
+            // console.log(info.response);
             resolve(info.response)
         })
     }) 
